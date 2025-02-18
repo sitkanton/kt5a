@@ -6,10 +6,10 @@ const cartSlice = createSlice({
   name: 'cart',
   initialState: {
     cart: [
-      { id: 1, title: 'Велосипед', count: 5 },
-      { id: 2, title: 'Самокат', count: 4 },
-      { id: 3, title: 'Гантели', count: 7 },
-      { id: 4, title: 'Ракетки', count: 1 }
+     { id: 1, title: 'Глушитель', count: 5 },
+    { id: 2, title: 'Дифференциал', count: 4 },
+    { id: 3, title: 'Двигатель', count: 7 },
+    { id: 4, title: 'коробка передач', count: 1 },
     ]
   },
   reducers: {
